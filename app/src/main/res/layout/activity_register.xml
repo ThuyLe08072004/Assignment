@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_chaomungban"
+        android:textSize="20sp"
+        android:textColor="#2196F3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_dangkitaikhoan"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#15181B" />.
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Username"/>.
+    <EditText
+        android:id="@+id/edt_nhappassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Nhập password"/>.
+    <EditText
+        android:id="@+id/edt_retype_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Nhập lại password"/>.
+    <Button
+        android:id="@+id/btn_dangki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ"
+        android:backgroundTint="#2196F3"/>
+    <Button
+        android:id="@+id/btn_trove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#424242"
+        android:textAllCaps="true"
+        android:text="Trở về"/>
+</LinearLayout>

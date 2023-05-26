@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="txt_chaomungbandatrolai">Chào mừng bạn đã trở lại</string>
+    <string name="txt_dangnhapdetieptuc">Đăng nhập để tiếp tục</string>
+    <string name="txt_chaomungban">Chào mừng bạn</string>
+    <string name="txt_dangkitaikhoan">Đăng kí tài khoản</string>
+    <string name="txt_Quanlinhansu">Quản lí nhân sự</string>
+    <string name="txt_fptcompany">fpt software company</string>
+    <string name="nhappass">Nhập password</string>
+    <string name="txt">FACULTY OF INFORMATION TECHNOLOGY</string>
+</resources>
